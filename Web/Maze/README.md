@@ -179,6 +179,12 @@
 
 10. Run ExifTool on `image-13.png`.
 
+    ```bash
+    exiftool image-13.png
+    ```
+
+    Output:
+
     ```text
     ExifTool Version Number         : 12.12
     File Name                       : image-13.png
@@ -209,7 +215,7 @@
     ```text
     aWh5YXBiYXtqQCRfN3UxJF8zaTNhX0BfajNvX3B1QHl5M2F0Mz99
     ```
-   
+
     
 
 11. Decode `aWh5YXBiYXtqQCRfN3UxJF8zaTNhX0BfajNvX3B1QHl5M2F0Mz99` from Base64 gives us:
@@ -219,7 +225,7 @@
     ```
 
     This looks like some cipher.
-    
+
     
 
 12. Using Caesar Cipher gives us the flag:
