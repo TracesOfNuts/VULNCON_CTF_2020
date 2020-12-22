@@ -43,30 +43,32 @@
 
    
 
-2. We can convert the hex dump to a binary file using `xxd`
+2. We can convert the hex dump to a binary file using `xxd`:
+
 
    ```bash
 xxd -r -p file.txt file.zip
    ```
 
    Output:
-   
+
    ![zip](./img/zip.PNG)
 
    
-   
-Opening the file reveals a PDF file:
-   
+
+
+   Opening the file reveals a PDF file:
+
    ![pdf](./img/encrption.PNG)
+
    
-   
-   
+
    Opening the `encrption.pdf` shows that the file is password protected:
-   
+
    ![password](./img/password.PNG)
-   
+
    Now, we have to figure out the password.
-   
+
    
 
 3. We can use an online PDF password cracker (https://www.ilovepdf.com/unlock_pdf) which will give an unlocked copy of the pdf.
